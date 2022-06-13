@@ -10,7 +10,8 @@ public class GraphicsEditor {
 
         ShapeUtils shapeUtils = new ShapeUtils();
 
-        System.out.println(shapeUtils.showName(rectangle));
+        shapeUtils.printName(circle);
+        //System.out.println(shapeUtils.showName(rectangle));
 
 
         line.setColor(new Color(250,250,250));
